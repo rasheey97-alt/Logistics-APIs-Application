@@ -3,8 +3,8 @@ services:
   db:
     image: postgres:13
     environment:
-      POSTGRES_USER: yourusername
-      POSTGRES_PASSWORD: yourpassword
+      POSTGRES_USER: rasheey97
+      POSTGRES_PASSWORD: 10221022
       POSTGRES_DB: logistics
     ports:
       - "5432:5432"
@@ -20,8 +20,8 @@ services:
     environment:
       DB_HOST: db
       DB_PORT: 5432
-      DB_USERNAME: yourusername
-      DB_PASSWORD: yourpassword
+      DB_USERNAME: rasheey97
+      DB_PASSWORD: 10221022
       DB_DATABASE: logistics
     command: npm run start
 
